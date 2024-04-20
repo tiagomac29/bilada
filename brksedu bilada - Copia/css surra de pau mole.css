@@ -23,7 +23,15 @@ body{
         }
 
      }
-     
+@media screen and (max-width: 1024px) {
+    #dancando1{left: -72vh !important;}
+    #dancando2{left: 14vh !important;}
+    #botao1{left: 35.6vh !important;}
+    #botao2{left: 37vh !important;}
+    #brskedu1{left: 45.5vh !important;width: 45vh;}
+    #brskedu2{left: 45.5vh !important;width: 45vh;}
+    #musicasbilada{height: 34px !important;width: 34vh !important;top: 1vh;left: 0.5vh;}
+}   
 #galaxy{position: absolute;
         z-index:-3;
         left: -1vh;
@@ -98,7 +106,10 @@ position:-webkit-sticky;}
     filter: saturate(150%);}
 
 #musicasbilada{position: absolute;
-    height: 6vh;
+    height: 33px;
+    width: 32vh;
+    top:1vh;
+    left: 0.4vh;
     }
 
 #botao1{position: relative;
